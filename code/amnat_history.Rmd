@@ -284,6 +284,7 @@ legend(2010, 5000, col = c(cols[3], cols[4]), legend = c("Model", "no Model"), p
 Citations, all items (including those without abstracts)
 
 ```{r}
+par(las = 1)
 plot(allArticles$PublicationYear, allArticles$TimesCitedWOS, col = gray(0.7), log = "", xlim = c(1955, 2020), pch = 16, xlab = "Year", ylab = "Number of citations")
 ```
 

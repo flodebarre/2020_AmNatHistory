@@ -163,6 +163,11 @@ countWord <- function(word, ...){
 absArticles$wordModel <- countWord("model")
 ```
 
+For comparison, Chris' figure  
+```{r, out.width = "400px"}
+knitr::include_graphics("pics/figCM.png")
+```
+
 ```{r}
 xx <- countWord("model organism")
 ```
